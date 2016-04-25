@@ -6,16 +6,10 @@ const Join = React.createClass({
       <div className="join-page">
         <h1>Join Page</h1>
         <p>
-          While the <a href="https://css-tricks.com/learning-react-router/">CSS-Tricks article</a> for
-          this guide covers an explanation of <strong>React Router</strong>, there
-          are still many implementation details in this code that the article
-          doesn't cover. For a better understanding of those details, see
-          the <a href="https://github.com/bradwestfall/CSS-Tricks-React-Series">Github documentation</a> for
-          this guide.
-        </p>
-        <p>
-          As far as the [Search Title] and [Total Results] that you'll see on the results page,
-          those are static for now. We will make them dynamic in the third guide.
+          Representing the University of Washington, the UW EcoCAR3 team consists of engineering, communications, and business students competing in the EcoCAR 3 competition. 
+          Over four years, the team will have modeled the vehicle and potential drivetrain architecture, built a showroom quality hybrid vehicle, 
+          and launched an exhaustive outreach program intended to educate consumers on green vehicle technology. With the University of Washington's 
+          background in environmental science and transportation technology, the team is confident in its ability to excel in this competition. 
         </p>
       </div>
     );

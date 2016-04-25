@@ -6,16 +6,12 @@ const Media = React.createClass({
       <div className="media-page">
         <h1>Media Page</h1>
         <p>
-          While the <a href="https://css-tricks.com/learning-react-router/">CSS-Tricks article</a> for
-          this guide covers an explanation of <strong>React Router</strong>, there
-          are still many implementation details in this code that the article
-          doesn't cover. For a better understanding of those details, see
-          the <a href="https://github.com/bradwestfall/CSS-Tricks-React-Series">Github documentation</a> for
-          this guide.
-        </p>
-        <p>
-          As far as the [Search Title] and [Total Results] that you'll see on the results page,
-          those are static for now. We will make them dynamic in the third guide.
+        The University of Washington has extensive experience in advanced vehicle technologies. 
+        From developing composite materials for Boeing to designing a carbon fiber monocoque for Lamborghini, 
+        University of Washington engineering students have the tools to succeed in pushing the envelope. 
+        In addition, with the previous advanced vehicle work experience from the EcoCAR 2, the team will sure be well equipped 
+        for the next challenge. The UW EcoCAR3 team's goal is to maintain our laboratory for ongoing alternative fuel 
+          research beyond the scope of the competition. The UW Advanced Vehicle Works shall continue and thrive.
         </p>
       </div>
     );

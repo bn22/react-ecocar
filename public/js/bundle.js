@@ -19682,9 +19682,9 @@
 	
 	var _reactRouter = __webpack_require__(160);
 	
-	var _navBar = __webpack_require__(217);
+	var _mainLayout = __webpack_require__(217);
 	
-	var _navBar2 = _interopRequireDefault(_navBar);
+	var _mainLayout2 = _interopRequireDefault(_mainLayout);
 	
 	var _home = __webpack_require__(218);
 	
@@ -19714,7 +19714,7 @@
 	  { history: _reactRouter.browserHistory },
 	  _react2.default.createElement(
 	    _reactRouter.Route,
-	    { component: _navBar2.default },
+	    { component: _mainLayout2.default },
 	    _react2.default.createElement(_reactRouter.Route, { path: '/', component: _home2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'join', component: _join2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: 'media', component: _media2.default }),
@@ -24869,6 +24869,54 @@
 	        'main',
 	        null,
 	        this.props.children
+	      ),
+	      _react2.default.createElement(
+	        'footer',
+	        { className: 'primary-footer' },
+	        _react2.default.createElement(
+	          'p',
+	          null,
+	          'UW EcoCar ',
+	          _react2.default.createElement('br', null),
+	          'Mechancial Engineering ',
+	          _react2.default.createElement('br', null),
+	          'Engineering Annex, Steven Way ',
+	          _react2.default.createElement('br', null),
+	          'Seattle, WA 98105 ',
+	          _react2.default.createElement('br', null),
+	          'uwecocar3@gmail.com'
+	        ),
+	        _react2.default.createElement(
+	          'ul',
+	          null,
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/', activeClassName: 'active' },
+	              'Facebook'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/join', activeClassName: 'active' },
+	              'Twitter'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/media', activeClassName: 'active' },
+	              'Email'
+	            )
+	          )
+	        )
 	      )
 	    );
 	  }
@@ -24907,30 +24955,7 @@
 	      _react2.default.createElement(
 	        "p",
 	        null,
-	        "While the ",
-	        _react2.default.createElement(
-	          "a",
-	          { href: "https://css-tricks.com/learning-react-router/" },
-	          "CSS-Tricks article"
-	        ),
-	        " for this guide covers an explanation of ",
-	        _react2.default.createElement(
-	          "strong",
-	          null,
-	          "React Router"
-	        ),
-	        ", there are still many implementation details in this code that the article doesn't cover. For a better understanding of those details, see the ",
-	        _react2.default.createElement(
-	          "a",
-	          { href: "https://github.com/bradwestfall/CSS-Tricks-React-Series" },
-	          "Github documentation"
-	        ),
-	        " for this guide."
-	      ),
-	      _react2.default.createElement(
-	        "p",
-	        null,
-	        "As far as the [Search Title] and [Total Results] that you'll see on the results page, those are static for now. We will make them dynamic in the third guide."
+	        "EcoCAR 3 builds on a proud 25-year history of U.S. Department of Energy (DOE) Advanced Vehicle Competitions that exemplify the power of public/ private partnerships in providing invaluable experience and training to promising, young minds readying to enter the job market."
 	      )
 	    );
 	  }
@@ -24969,30 +24994,7 @@
 	      _react2.default.createElement(
 	        "p",
 	        null,
-	        "While the ",
-	        _react2.default.createElement(
-	          "a",
-	          { href: "https://css-tricks.com/learning-react-router/" },
-	          "CSS-Tricks article"
-	        ),
-	        " for this guide covers an explanation of ",
-	        _react2.default.createElement(
-	          "strong",
-	          null,
-	          "React Router"
-	        ),
-	        ", there are still many implementation details in this code that the article doesn't cover. For a better understanding of those details, see the ",
-	        _react2.default.createElement(
-	          "a",
-	          { href: "https://github.com/bradwestfall/CSS-Tricks-React-Series" },
-	          "Github documentation"
-	        ),
-	        " for this guide."
-	      ),
-	      _react2.default.createElement(
-	        "p",
-	        null,
-	        "As far as the [Search Title] and [Total Results] that you'll see on the results page, those are static for now. We will make them dynamic in the third guide."
+	        "Representing the University of Washington, the UW EcoCAR3 team consists of engineering, communications, and business students competing in the EcoCAR 3 competition. Over four years, the team will have modeled the vehicle and potential drivetrain architecture, built a showroom quality hybrid vehicle, and launched an exhaustive outreach program intended to educate consumers on green vehicle technology. With the University of Washington's background in environmental science and transportation technology, the team is confident in its ability to excel in this competition."
 	      )
 	    );
 	  }
@@ -25031,30 +25033,7 @@
 	      _react2.default.createElement(
 	        "p",
 	        null,
-	        "While the ",
-	        _react2.default.createElement(
-	          "a",
-	          { href: "https://css-tricks.com/learning-react-router/" },
-	          "CSS-Tricks article"
-	        ),
-	        " for this guide covers an explanation of ",
-	        _react2.default.createElement(
-	          "strong",
-	          null,
-	          "React Router"
-	        ),
-	        ", there are still many implementation details in this code that the article doesn't cover. For a better understanding of those details, see the ",
-	        _react2.default.createElement(
-	          "a",
-	          { href: "https://github.com/bradwestfall/CSS-Tricks-React-Series" },
-	          "Github documentation"
-	        ),
-	        " for this guide."
-	      ),
-	      _react2.default.createElement(
-	        "p",
-	        null,
-	        "As far as the [Search Title] and [Total Results] that you'll see on the results page, those are static for now. We will make them dynamic in the third guide."
+	        "The University of Washington has extensive experience in advanced vehicle technologies. From developing composite materials for Boeing to designing a carbon fiber monocoque for Lamborghini, University of Washington engineering students have the tools to succeed in pushing the envelope. In addition, with the previous advanced vehicle work experience from the EcoCAR 2, the team will sure be well equipped for the next challenge. The UW EcoCAR3 team's goal is to maintain our laboratory for ongoing alternative fuel research beyond the scope of the competition. The UW Advanced Vehicle Works shall continue and thrive."
 	      )
 	    );
 	  }
@@ -25093,30 +25072,7 @@
 	      _react2.default.createElement(
 	        "p",
 	        null,
-	        "While the ",
-	        _react2.default.createElement(
-	          "a",
-	          { href: "https://css-tricks.com/learning-react-router/" },
-	          "CSS-Tricks article"
-	        ),
-	        " for this guide covers an explanation of ",
-	        _react2.default.createElement(
-	          "strong",
-	          null,
-	          "React Router"
-	        ),
-	        ", there are still many implementation details in this code that the article doesn't cover. For a better understanding of those details, see the ",
-	        _react2.default.createElement(
-	          "a",
-	          { href: "https://github.com/bradwestfall/CSS-Tricks-React-Series" },
-	          "Github documentation"
-	        ),
-	        " for this guide."
-	      ),
-	      _react2.default.createElement(
-	        "p",
-	        null,
-	        "As far as the [Search Title] and [Total Results] that you'll see on the results page, those are static for now. We will make them dynamic in the third guide."
+	        "All teams competiting in the UW EcoCAR3 competition will be provided a Chevy Camaro by General Motors. Teams are expected to remove the stock powertrain and replace it with our own more fuel efficient powertrain."
 	      )
 	    );
 	  }
@@ -25155,30 +25111,7 @@
 	      _react2.default.createElement(
 	        "p",
 	        null,
-	        "While the ",
-	        _react2.default.createElement(
-	          "a",
-	          { href: "https://css-tricks.com/learning-react-router/" },
-	          "CSS-Tricks article"
-	        ),
-	        " for this guide covers an explanation of ",
-	        _react2.default.createElement(
-	          "strong",
-	          null,
-	          "React Router"
-	        ),
-	        ", there are still many implementation details in this code that the article doesn't cover. For a better understanding of those details, see the ",
-	        _react2.default.createElement(
-	          "a",
-	          { href: "https://github.com/bradwestfall/CSS-Tricks-React-Series" },
-	          "Github documentation"
-	        ),
-	        " for this guide."
-	      ),
-	      _react2.default.createElement(
-	        "p",
-	        null,
-	        "As far as the [Search Title] and [Total Results] that you'll see on the results page, those are static for now. We will make them dynamic in the third guide."
+	        "During each year there are two workshops where team members receive hands on training from industry professionals and are able to talk with suppliers and get to know other teams. Throughout the year, a number of reports are due to make sure that teams keep up with competition benchmarks. The UW EcoCAR3 team GM mentor, Michael Abowd, periodically visits to assist and advise the team. At the end of each year is a competition where teams present their designs and their cars are tested."
 	      )
 	    );
 	  }

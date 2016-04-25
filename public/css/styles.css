@@ -3,7 +3,16 @@
 }
 
 aside.primary-aside {
-  width: 200px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+aside.primary-aside li{
+	display: list-item; 
+	float:left;	
+	list-style: none;
+	left: 5%;
 }
 
 aside.primary-aside a.active {
@@ -11,5 +20,20 @@ aside.primary-aside a.active {
 }
 
 main {
-  flex: 1;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  right: 15%;
+}
+
+.primary-footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.primary-footer li{
+	display: list-item; 
+	float:left;	
+	list-style: none;
 }

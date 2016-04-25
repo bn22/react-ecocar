@@ -6,16 +6,10 @@ const Team = React.createClass({
       <div className="team-page">
         <h1>Team Page</h1>
         <p>
-          While the <a href="https://css-tricks.com/learning-react-router/">CSS-Tricks article</a> for
-          this guide covers an explanation of <strong>React Router</strong>, there
-          are still many implementation details in this code that the article
-          doesn't cover. For a better understanding of those details, see
-          the <a href="https://github.com/bradwestfall/CSS-Tricks-React-Series">Github documentation</a> for
-          this guide.
-        </p>
-        <p>
-          As far as the [Search Title] and [Total Results] that you'll see on the results page,
-          those are static for now. We will make them dynamic in the third guide.
+         During each year there are two workshops where team members receive hands on training from industry professionals and are able to talk with suppliers and get to know other teams. 
+         Throughout the year, a number of reports are due to make sure that teams keep up with competition benchmarks. 
+         The UW EcoCAR3 team GM mentor, Michael Abowd, periodically visits to assist and advise the team. 
+         At the end of each year is a competition where teams present their designs and their cars are tested.
         </p>
       </div>
     );

@@ -4,7 +4,7 @@ module.exports = {
     entry: "./app/app.js",
     output: {
         filename: "public/js/bundle.js",
-        sourceMapFilename: "public/js/bundle.map"
+        sourceMapFilename: "public/js/bundle.map",
     },
     devtool: '#source-map',
     module: {
